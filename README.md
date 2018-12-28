@@ -30,7 +30,7 @@ Join token displayed while kubeadm init from the master
 # Adding Flannel network updated link.
     flanneld needs a fix for k8s 1.12.
      Use this PR (till will be approved):
-     kubectl -n kube-system apply -f        https://raw.githubusercontent.com/coreos/flannel/bc79dd1505b0c8681ece4de4c0d86c5cd2643275/Documentation/kube-flannel.yml
+     kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/bc79dd1505b0c8681ece4de4c0d86c5cd2643275/Documentation/kube-flannel.yml
      it's a known issue: coreos/flannel#1044
 
 # K8 CMD's:
